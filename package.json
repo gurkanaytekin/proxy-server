@@ -7,7 +7,7 @@
   "author": "gurkanaytekin <gurkanaytekin@yandex.com.tr",
   "license": "MIT",
   "scripts": {
-    "start": "node index"
+    "start": "PORT=$PORT node index"
   },
   "files": [
     "dist"

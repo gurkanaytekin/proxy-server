@@ -4,4 +4,4 @@ const proxy = httpProxy.createServer({
     target: 'https://testibapp.fibabanka.com.tr/FIBABANKA',
     changeOrigin: true,
     secure: true
-}).listen(82);
+}).listen(process.env.PORT);
